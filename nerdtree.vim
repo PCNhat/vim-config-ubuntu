@@ -9,7 +9,7 @@ autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTa
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-" Show hidden file
+" Show hidden files
 let NERDTreeShowHidden=1
 
 " Git status icon

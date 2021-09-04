@@ -59,4 +59,5 @@ let nvim_settings_dir = '~/.config/nvim/'
 execute 'source '.nvim_settings_dir.'nerdtree.vim'
 execute 'source '.nvim_settings_dir.'coc.vim'
 execute 'source '.nvim_settings_dir.'floaterm.vim'
+execute 'source '.nvim_settings_dir.'fzf.vim'
 
