@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/plugged')
 
     Plug 'tpope/vim-fugitive'                         " Git
     Plug 'tpope/vim-dotenv'
+    Plug 'tpope/vim-commentary'                       " Comment code
 call plug#end()
 
 "================Theme================
@@ -38,6 +39,7 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'default'
 
+" Show number
 set number
 
 " show existing tab with 4 spaces width
